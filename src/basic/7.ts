@@ -1,4 +1,15 @@
-const page1 = {
+type Data = {
+  title: string;
+  likes: number;
+  accounts: string[];
+  status: "open" | "close";
+  details?: {
+    createAt: Date;
+    updateAt: Date;
+  };
+};
+
+const page1: Data = {
   title: "The awesome page",
   likes: 100,
   accounts: ["Max", "Anton", "Nikita"],
@@ -9,7 +20,7 @@ const page1 = {
   },
 };
 
-const page2 = {
+const page2: Data = {
   title: "Python or Js",
   likes: 5,
   accounts: ["Alex"],
