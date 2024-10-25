@@ -18,7 +18,7 @@ const mango: Mango = {
   },
 };
 
-const poly = {
+const poly: Mango = {
   name: "Mango",
   age: 30,
   email: "john@example.com",

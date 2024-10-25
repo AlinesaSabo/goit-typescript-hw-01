@@ -1,1 +1,1 @@
-let person: [string: "Max", number: 21];
+let person: [string, number] = ["Max", 21];
